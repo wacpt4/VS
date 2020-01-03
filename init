@@ -1,9 +1,7 @@
 
 //git remote add <name> <url>
-//git remote add wacpt https://github.com/wacpt4/VS
-//remote wacpt already exists.
 // git push <name>
-//输出台git remote add wacpt4 https://github.com/wacpt4/VSC
+//输出台git remote add wacpt* https://github.com/wacpt*/VSC
 
 
  //为什么已存在就不行？
@@ -19,8 +17,8 @@
 
 Git 全局设置:
  
-git config --global user.name "wacpt4" 
-git config --global user.email "675135130@qq.com"
+git config --global user.name "wacpt*" 
+git config --global user.email "675******@qq.com"
  
 创建 git 仓库:
 /*
@@ -32,7 +30,7 @@ git init
 git add README.md  //没有add文件 会提交不了到新的文件 ***
 git commit -m "first commit" //修改留言
 
-git remote add VS https://github.com/wacpt4/VS
+git remote add VS https://github.com/wacpt*/VS
 //git remote add origin https://git.oschina.net/name/package.git  // 远程仓库地址
 git push -u VS master 要登陆了
 //git push -u vs master 小写不行 VS是存储库名字
