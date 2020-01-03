@@ -1,4 +1,48 @@
 
 git remote add <name> <url>
-git remote add wacpt
+git remote add wacpt https://github.com/wacpt4/VS
+
+remote wacpt already exists.
  git push <name>
+
+
+ git remote add wacpt4 https://github.com/wacpt4/VSC
+
+
+ 为什么已存在就不行？
+
+
+
+
+ 1、将代码放到码云
+
+到码云里新建一个仓库，完成后码云会有一个命令教程按上面的来就行了
+码云中的使用教程：
+ 
+
+Git 全局设置:
+ 
+git config --global user.name "wacpt4" 
+git config --global user.email "675135130@qq.com"
+ 
+创建 git 仓库:
+/*
+mkdir wap // 项目在本地的路径
+cd wap
+*/
+git init 
+touch README.md //window没有
+git add README.md 
+git commit -m "first commit" //修改留言
+git remote add origin https://git.oschina.net/name/package.git  // 远程仓库地址
+//git remote add VS https://github.com/wacpt4/VS
+git push -u origin master
+ 
+ 
+ 
+已有项目：
+ 
+cd existing_git_repo
+git remote add origin https://git.oschina.net/name/package.git
+git push -u origin master
+下面说下详细的本地操作步骤：
