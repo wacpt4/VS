@@ -29,7 +29,7 @@ cd wap
 */
 git init 
 //touch README.md window没有
-git add README.md 
+git add README.md  //没有add文件 会提交不了到新的文件 ***
 git commit -m "first commit" //修改留言
 
 git remote add VS https://github.com/wacpt4/VS
