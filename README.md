@@ -14,3 +14,6 @@ git add 文件名
 git commit -m “备注”
 git pull 。。。 （此处需要先pull下远程代码，解决可能存在的合并冲突）
 git push 。。。
+
+#VS2017，  2013没有
+Git Tools安装方式比较简单，工具→扩展和更新→联机搜索“Git Tools”
